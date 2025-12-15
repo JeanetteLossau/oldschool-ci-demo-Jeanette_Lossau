@@ -10,7 +10,9 @@ jobs:
     steps:
       - name: repo auschecken
         uses: actions/checkout@v4
-    
+
+     #Installierung bringt es zum absturz
+     #weil ubuntu-latest docker schon installiert hat
       - name: Docker installieren
         run: |
           docker --version
