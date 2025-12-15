@@ -32,4 +32,11 @@ Was war für dich der schwierigste Teil dieser Aufgabe und warum?
  -------------------------------------------------------------------------------------------------
 
  Extra Aufgaben
-   Meine Pipeline läuft bei push und bei pull_request auf main.
+
+ 1) Pull- Request
+      Meine Pipeline läuft bei push und bei pull_request auf main.
+
+ 3) Erkläre in docs.md kurz, warum zwei Steps übersichtlicher sind.
+      Zwei steps sind übersichtlicher, weil wenn etwas schief geht genauer unterschieden werden kann, welcher
+      Teil schiefgelaufen ist. Außerdem ist so wirklich ein "step" pro step. Ein step sollte am besten eine Aufgabe
+      haben, es verbessert auch die lesbarkeit und sortiert den Code etwas besser.
