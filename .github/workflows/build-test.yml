@@ -25,7 +25,3 @@ jobs:
             echo "❌ Test fehlgeschlagen!" 
             exit 1 
           fi 
-    
-      - name: Ausgabe testen
-        run: |
-          echo "Test yay"
