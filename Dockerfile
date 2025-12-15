@@ -1,6 +1,7 @@
 # Minimaler Alpine-Container 
 _____ alpine:latest 
 
+
 # Skript app.sh in den Container kopieren 
 _____ app.sh /app.sh 
 
