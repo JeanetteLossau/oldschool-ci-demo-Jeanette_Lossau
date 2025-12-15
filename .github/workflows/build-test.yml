@@ -17,7 +17,7 @@ jobs:
         run: |
           docker build -t oldschool-ci-demo-jeanettelossau .
       
-      - name: Container starten
+      - name: Container starten und Testen
         run: | 
           output=$(docker run oldschool-ci-demo-jeanettelossau) 
           echo "$output" 
