@@ -24,7 +24,7 @@ jobs:
       - name: Container starten
         run: | 
           output=$(docker run oldschool-ci-demo-jeanettelossau) 
-          echo "$output"
+          echo "$output" >> $GITHUB_ENV
      
       - name: Container Testen
         run: |
