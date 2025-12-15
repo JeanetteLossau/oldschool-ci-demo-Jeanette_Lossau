@@ -36,7 +36,23 @@ Was war für dich der schwierigste Teil dieser Aufgabe und warum?
  1) Pull- Request
       Meine Pipeline läuft bei push und bei pull_request auf main.
 
- 3) Erkläre in docs.md kurz, warum zwei Steps übersichtlicher sind.
+ 2) Erkläre in docs.md kurz, warum zwei Steps übersichtlicher sind.
       Zwei steps sind übersichtlicher, weil wenn etwas schief geht genauer unterschieden werden kann, welcher
       Teil schiefgelaufen ist. Außerdem ist so wirklich ein "step" pro step. Ein step sollte am besten eine Aufgabe
       haben, es verbessert auch die lesbarkeit und sortiert den Code etwas besser.
+    
+  3)Bonus: CI/CD“ (3–4 Sätze). Gehe dabei auf folgende Punkte ein: 
+    Warum sind automatische Pipelines sinnvoll?
+      Automatische Pipelines sind sinnvoll, weil sie das Testen stark vereinfachen. Automatisch Tests zu veranlassen 
+      sparrt Zeit und macht es einfacher für den entwickler, da er keinen Test Manuell starten muss. Durch die Automatische
+      Pipeline kann man das CI/CD modell sehr einfach befolgen. "Continuous Integration" Wird durch das schnelle Testen
+      unterstützt. Wenn der Test durchgeht, kann man den neuen Code direkt Deployen, ohne das mann sich sorgen muss, dass das
+      komplette Projekt kaputt geht durch das neue Modul.
+    
+  4)Wo siehst du CI/CD in echten Projekten (z. B. Web-Apps, Spiele, Mobile Apps)?
+      CI/CD ist sehr weit verbreitet. Ein paar bekannte beispiele, die mit CI/CD entwickelt wurden, sind:
+        -Google Chrome
+        -Netflix
+        -Facebook
+        Diese Firmen benutzen CICD um sehr viele kleine Updates zu schreiben und implementieren.
+        
