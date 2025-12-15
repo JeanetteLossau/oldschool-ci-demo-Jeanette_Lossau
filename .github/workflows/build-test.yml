@@ -15,7 +15,7 @@ jobs:
     
       - name: Docker Image bauen
         run: |
-          docker build -t oldschool-ci-demo-Jeanette_Lossau
+          docker build -t oldschool-ci-demo-Jeanette_Lossau .
       
       - name: Container starten
         run: | 
