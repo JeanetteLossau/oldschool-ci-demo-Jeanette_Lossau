@@ -15,13 +15,13 @@ jobs:
     
       - name: Docker Image bauen
         run: |
-          docker build -t oldschool-ci-demo-jeanette_lossau .
+          docker build -t oldschool-ci-demo-jeanettelossau .
       
       - name: Container starten
         run: | 
-          output=$(docker run oldschool-ci-demo-jeanette_lossau) 
+          output=$(docker run oldschool-ci-demo-jeanettelossau) 
           echo "$output" 
-          if [ "$output" != "OldSchool GmbH – automatischer Build erfolgreich! (jeanette l.)" ]; then 
+          if [ "$output" != "OldSchool GmbH - automatischer Build erfolgreich! (Jeanette L.)" ]; then 
             echo "❌ Test fehlgeschlagen!" 
             exit 1 
           fi 
