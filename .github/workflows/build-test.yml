@@ -24,11 +24,11 @@ jobs:
       - name: Container starten
         run: | 
           output=$(docker run oldschool-ci-demo-jeanettelossau) 
-          echo "Output=§output" >> $GITHUB_ENV
+          echo "OUTPUT=$output" >> $GITHUB_ENV
      
       - name: Container Testen
         run: |
-          if [ "$Output" != "OldSchool GmbH - automatischer Build erfolgreich! (Jeanette L.)" ]; then 
+          if [ "$OUTPUT" != "OldSchool GmbH - automatischer Build erfolgreich! (Jeanette L.)" ]; then 
             echo "❌ Test fehlgeschlagen!" 
             exit 1 
           fi 
