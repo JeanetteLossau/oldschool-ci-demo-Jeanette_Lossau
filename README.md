@@ -1,1 +1,3 @@
-# oldschool-ci-demo-Jeanette_Lo-au
+# oldschool-ci-demo-Jeanette_Lossau
+
+Das sind die Aufgaben fur SSD.
