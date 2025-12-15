@@ -21,11 +21,15 @@ jobs:
         run: |
           docker build -t oldschool-ci-demo-jeanettelossau .
       
-      - name: Container starten und Testen
+      - name: Container starten
         run: | 
           output=$(docker run oldschool-ci-demo-jeanettelossau) 
-          echo "$output" 
+          echo "$output"
+     
+      - name: Container Testen
+        run: |
           if [ "$output" != "OldSchool GmbH - automatischer Build erfolgreich! (Jeanette L.)" ]; then 
             echo "❌ Test fehlgeschlagen!" 
             exit 1 
           fi 
+          
