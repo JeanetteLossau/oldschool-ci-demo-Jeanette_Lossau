@@ -6,3 +6,24 @@ jobs:
   build_and_test: 
     runs-on: ubuntu-latest 
  
+steps:
+  - name: repo auschecken
+  - run: actions/checkout@v4
+
+  - name: Docker installieren
+  - run:
+
+  - name: Docker Image bauen
+  - run:
+  
+  - name: Container starten
+    run: | 
+      output=$(docker run oldschool-ci-demo-Jeanette_Lossau) 
+      echo "$output" 
+      if [ "$output" != "OldSchool GmbH –  automatischer Build erfolgreich! (Jeanette L.)" ]; then 
+        echo "❌ Test fehlgeschlagen!" 
+        exit 1 
+      fi 
+
+  - name: Ausgabe testen
+  - run:
