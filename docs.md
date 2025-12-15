@@ -29,4 +29,7 @@ Was war für dich der schwierigste Teil dieser Aufgabe und warum?
   ich nicht alle problemquellen gefunden (Teilweise hatte ich das problem das das "-" und
   das minus zeichen "-" scheinbar nicht das selbe ist etc.)
  
- 
+ -------------------------------------------------------------------------------------------------
+
+ Extra Aufgaben
+   Meine Pipeline läuft bei push und bei pull_request auf main.
